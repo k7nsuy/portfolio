@@ -18,7 +18,7 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://k7nsuy.github.io/porfolio",
+  "homepage": "https://k7nsuy.github.io/portfolio",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/k7nsuy/resume.git"
