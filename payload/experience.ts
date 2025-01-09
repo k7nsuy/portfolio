@@ -7,7 +7,7 @@ const experience: IExperience.Payload = {
     {
       title: 'Outlier AI',
       position: 'AI Trainer (freelancer)',
-      startedAt: 'Dec 2024',
+      startedAt: 'Sep 2024',
       endedAt: '',
       descriptions: [
         'Created and refined ground-truth datasets for training large language models, while writing efficient, functional code across multiple programming languages',
