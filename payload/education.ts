@@ -18,7 +18,8 @@ const education: IEducation.Payload = {
     },
     {
       title: 'IT Human Resource Development Center',
-      subTitle: 'Bootcamp',
+      subTitle:
+        'Developed a full-stack web application using React JS and Java, and deployed it with AWS cloud service Provided information on local festivals and events',
       startedAt: 'Dec 2020',
       endedAt: 'Jul 2021',
     },
