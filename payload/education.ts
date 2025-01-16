@@ -16,6 +16,12 @@ const education: IEducation.Payload = {
       startedAt: 'Mar 2009',
       endedAt: 'Feb 2016',
     },
+    {
+      title: 'IT Human Resource Development Center',
+      subTitle: 'Bootcamp',
+      startedAt: 'Dec 2020',
+      endedAt: 'Jul 2021',
+    },
   ],
 };
 

@@ -72,29 +72,6 @@ const experience: IExperience.Payload = {
         'Tomcat',
       ],
     },
-    {
-      title: 'IT Human Resource Development Center',
-      position: 'Intern',
-      startedAt: 'Dec 2020',
-      endedAt: 'Jul 2021',
-      descriptions: [
-        'Developed a full-stack web application using React JS and Java, and deployed it with AWS cloud service',
-        'Provided information on local festivals and events, highlighting unique activities in different regions, and offered real-time location and weather updates through APIs',
-      ],
-      skillKeywords: [
-        'Python',
-        'Java',
-        'Spring',
-        'React.js',
-        'MySQL',
-        'OracleDB',
-        'Firebase',
-        'MySQL',
-        'JavaScript',
-        'HTML',
-        'CSS',
-      ],
-    },
   ],
 };
 
