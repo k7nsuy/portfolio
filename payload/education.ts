@@ -5,6 +5,13 @@ const education: IEducation.Payload = {
 
   list: [
     {
+      title: 'IT Human Resource Development Center',
+      subTitle:
+        'Developed a full-stack web application using React JS and Java, and deployed it with AWS cloud service Provided information on local festivals and events',
+      startedAt: 'Dec 2020',
+      endedAt: 'Jul 2021',
+    },
+    {
       title: 'Selc College',
       subTitle: 'Business and English',
       startedAt: 'Aug 2019',
@@ -15,13 +22,6 @@ const education: IEducation.Payload = {
       subTitle: 'B.S. in Mechanical Engineering & English Literature and Language',
       startedAt: 'Mar 2009',
       endedAt: 'Feb 2016',
-    },
-    {
-      title: 'IT Human Resource Development Center',
-      subTitle:
-        'Developed a full-stack web application using React JS and Java, and deployed it with AWS cloud service Provided information on local festivals and events',
-      startedAt: 'Dec 2020',
-      endedAt: 'Jul 2021',
     },
   ],
 };
