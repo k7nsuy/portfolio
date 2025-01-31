@@ -19,7 +19,7 @@ const experience: IExperience.Payload = {
         'JavaScript',
         'Node.js',
         'Critical Thinking',
-        'Logical Writing Skill',
+        'Creative Writing Skill',
       ],
     },
     {

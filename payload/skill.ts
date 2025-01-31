@@ -1,31 +1,5 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const backend: ISkill.Skill = {
-  category: 'Back-end',
-  items: [
-    {
-      title: 'Nest.js',
-      level: 2,
-    },
-    {
-      title: 'Typescript',
-      level: 2,
-    },
-    {
-      title: 'Express.js',
-      level: 2,
-    },
-    {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-  ],
-};
-
 const DevOps: ISkill.Skill = {
   category: 'DevOps',
   items: [
@@ -42,6 +16,14 @@ const DevOps: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Linux',
+      level: 3,
+    },
+    {
+      title: 'Apache & Nginx',
+      level: 3,
+    },
+    {
       title: 'Kubernetes',
       level: 2,
     },
@@ -52,6 +34,40 @@ const DevOps: ISkill.Skill = {
     {
       title: 'Ansible',
       level: 2,
+    },
+    {
+      title: 'Monitoring Tools',
+      level: 2,
+    },
+    {
+      title: 'Apache Tomcat',
+      level: 1,
+    },
+  ],
+};
+
+const backend: ISkill.Skill = {
+  category: 'Back-end',
+  items: [
+    {
+      title: 'Nest.js',
+      level: 2,
+    },
+    {
+      title: 'Express.js',
+      level: 2,
+    },
+    {
+      title: 'Node.js',
+      level: 2,
+    },
+    {
+      title: 'Java',
+      level: 1,
+    },
+    {
+      title: 'Python',
+      level: 1,
     },
   ],
 };
@@ -69,11 +85,11 @@ const database: ISkill.Skill = {
     },
     {
       title: 'MySQL',
-      level: 1,
+      level: 2,
     },
     {
       title: 'MariaDB',
-      level: 1,
+      level: 2,
     },
     {
       title: 'OracleDB',
@@ -94,6 +110,10 @@ const frontend: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Typescript',
+      level: 2,
+    },
+    {
       title: 'HTML/CSS',
       level: 2,
     },
@@ -101,34 +121,21 @@ const frontend: ISkill.Skill = {
       title: 'React.js',
       level: 1,
     },
+    {
+      title: 'Next.js',
+      level: 1,
+    },
   ],
 };
 
-const etc: ISkill.Skill = {
-  category: 'etc',
-  items: [
-    {
-      title: 'Linux',
-      level: 3,
-    },
-    {
-      title: 'Apache & Nginx',
-      level: 3,
-    },
-    {
-      title: 'Datadog',
-      level: 1,
-    },
-    {
-      title: 'Apache Tomcat',
-      level: 1,
-    },
-  ],
-};
+// const etc: ISkill.Skill = {
+//   category: 'etc',
+//   items: [],
+// };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, DevOps, database, frontend, etc],
+  skills: [backend, DevOps, database, frontend],
   tooltip: '1: Entry Level\n2: Junior Level\n3: Senior Level',
 };
 

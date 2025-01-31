@@ -4,6 +4,22 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'An Integrated Platform for Efficient Project Management',
+      startedAt: 'Dec 2024',
+      where: 'Side Project',
+      descriptions: [
+        {
+          content:
+            'Efficiently process various events and construct a flexible architecture based on events and microservices using AWS Lambda and API Gateway',
+        },
+        {
+          content:
+            'Engineered a robust project management platform using Next.js, Nest.js, Docker, CI/CD and Terraform that facilitates team participation, task management, and real-time collaboration',
+        },
+        { content: 'Page : ', postHref: 'https://www.bsideu.ca', weight: 'BOLD' },
+      ],
+    },
+    {
       title: 'Video Upload Web Application',
       startedAt: 'Jan 2023',
       endedAt: 'May 2023',
