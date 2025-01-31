@@ -140,7 +140,7 @@ const project: IProject.Payload = {
       title: 'Big Data-based Tourism Web Application Development',
       startedAt: 'Jun 2021',
       endedAt: 'Jul 2021',
-      where: 'Busan IT Talent Development Institute',
+      where: 'Busan IT Development Center',
       descriptions: [
         { content: 'Analyzed and predicted interests using SNS data and public data' },
         {
@@ -159,7 +159,7 @@ const project: IProject.Payload = {
       title: 'Android and Firebase-based Chat Application',
       startedAt: 'Mar 2021',
       endedAt: 'Apr 2021',
-      where: 'Busan IT Talent Development Institute',
+      where: 'Busan IT Development Center',
       descriptions: [
         { content: 'Implemented real-time chat using Firebase Cloud Messaging' },
         { content: 'Stored data using Cloud Storage' },
@@ -171,7 +171,7 @@ const project: IProject.Payload = {
       title: 'Healthcare Product Sales Web Application',
       startedAt: 'Jan 2021',
       endedAt: 'Feb 2021',
-      where: 'Busan IT Talent Development Institute',
+      where: 'Busan IT Development Center',
       descriptions: [
         {
           content:

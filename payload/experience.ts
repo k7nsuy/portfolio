@@ -7,7 +7,7 @@ const experience: IExperience.Payload = {
     {
       title: 'Outlier AI',
       position: 'AI Trainer (freelancer)',
-      startedAt: 'Sep 2024',
+      startedAt: 'Nov 2024',
       endedAt: '',
       descriptions: [
         'Created and refined ground-truth datasets for training large language models, while writing efficient, functional code across multiple programming languages',
@@ -26,7 +26,7 @@ const experience: IExperience.Payload = {
       title: 'Ninehire',
       position: 'Software Engineer',
       startedAt: 'Aug 2023',
-      endedAt: 'Jul 2024',
+      endedAt: 'Sep 2024',
       descriptions: [
         'Transitioned to a backend developer role, successfully managing backend development tasks for the recruiting web service',
         'Developed REST APIs, created new backend pages, and managed servers using Typescript and Nest.js',
@@ -48,8 +48,8 @@ const experience: IExperience.Payload = {
     {
       title: 'Bespin Global',
       position: 'DevOps Engineer',
-      startedAt: 'Aug 2021',
-      endedAt: 'Apr 2023',
+      startedAt: 'Jul 2021',
+      endedAt: 'Jun 2023',
       descriptions: [
         'Managed infrastructure leveraging a range of AWS services including EC2, ELB, RDS, IAM, ECS, CDN, and Route53',
         'Improved system availability by addressing server incidents and optimizing performance',

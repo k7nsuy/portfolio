@@ -135,7 +135,7 @@ const frontend: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, DevOps, database, frontend],
+  skills: [DevOps, backend, database, frontend],
   tooltip: '1: Entry Level\n2: Junior Level\n3: Senior Level',
 };
 

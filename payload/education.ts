@@ -5,9 +5,9 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'IT Human Resource Development Center',
+      title: 'Busan IT Development Center',
       subTitle:
-        'Developed a full-stack web application using React JS, and Java and deployed it with AWS cloud service. Provided information on local festivals and events, highlighting unique activities in different regions, and offered real-time location and weather updates through APIs.',
+        'Developed a full-stack web application using React JS, and Java and deployed it with AWS cloud service Provided information on local festivals and events, highlighting unique activities in different regions, and offered real-time location and weather updates through APIs',
       startedAt: 'Dec 2020',
       endedAt: 'Jul 2021',
     },
