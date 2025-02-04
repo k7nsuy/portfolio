@@ -10,7 +10,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            'Efficiently process various events and construct a flexible architecture based on events and microservices using AWS Lambda and API Gateway',
+            'Maintaining system architecture as code through CloudFormation, and leveraging API Gateway and Lambda for selective functionality usage, traffic load distribution, and microservices architecture.',
         },
         {
           content:
