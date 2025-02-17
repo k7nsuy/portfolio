@@ -92,12 +92,12 @@ const database: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'OracleDB',
-      level: 1,
+      title: 'PostgreSQL',
+      level: 2,
     },
     {
       title: 'Firebase',
-      level: 1,
+      level: 2,
     },
   ],
 };
@@ -128,14 +128,27 @@ const frontend: ISkill.Skill = {
   ],
 };
 
-// const etc: ISkill.Skill = {
-//   category: 'etc',
-//   items: [],
-// };
+const etc: ISkill.Skill = {
+  category: 'etc',
+  items: [
+    {
+      title: 'Jira',
+      level: 3,
+    },
+    {
+      title: 'Confluence',
+      level: 3,
+    },
+    {
+      title: 'Slack',
+      level: 3,
+    },
+  ],
+};
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [DevOps, backend, database, frontend],
+  skills: [DevOps, backend, database, frontend, etc],
   tooltip: '1: Entry Level\n2: Junior Level\n3: Senior Level',
 };
 
